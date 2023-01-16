@@ -6,7 +6,7 @@ import com.cg.rest.entity.Course;
 import com.cg.rest.entity.Student;
 import com.cg.rest.exception.NoSuchStudentFoundException;
 
-public interface StudentService(Student student) {
+public interface StudentService {
 
 	public Student createStudent(Student student);
 
